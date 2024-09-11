@@ -4,12 +4,12 @@
 - [Funkcje](#funkcje-)
 - [Dokumentacja](#dokumentacja-)
 - [Diagram Bazy Danych](https://app.diagrams.net/#HMio-coder%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
-- [Postęp: $$0\frac{0}{1}$$%](#postęp)
+- [Postęp](#postęp): $$0\frac{0}{1}$$%
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
   
-($$\frac{1}{10}$$)[#tu]
+()[#tu]
 
 ## Ważne ❗
 Przed pull-request sparawdź składnie oraz uruchom testy \
