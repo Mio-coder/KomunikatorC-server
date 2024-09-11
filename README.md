@@ -79,8 +79,9 @@ db.py get <user>            - gets password about
 <summary> Postępy 🏆 </summary>
 
 ### Podstawa serwera 🌐
-
-- [ ] <span style="color: #00ff00"> Całość gotowa     (100%) <\span>
+<span style="color: #00ff00"> Całość gotowa     (100%) </span>
+<font color="#00ff00"> Całość gotowa     (100%) </font>
+- [ ] <span style="color: #00ff00"> Całość gotowa     (100%) </span>
 - [ ] Większość gotowa  (~75%)
 - [ ] Połowa gotowa     (~50%)
 - [ ] Mniejszość gotowa (~25%)
