@@ -7,7 +7,7 @@
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
-  <a href="#funkcje-">$$\frac{10}{2}$$</a>
+  <a href="#funkcje-">![equ](https://latex.codecogs.com/svg.image?&space;2\frac{10}{2}\%)</a>
 ## Ważne ❗
 Przed pull-request sparawdź składnie oraz uruchom testy \
 Prace nad HTML: dev-html (w trakcie) \
