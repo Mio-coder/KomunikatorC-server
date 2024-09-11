@@ -9,8 +9,6 @@
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
   
-()[#tu]
-
 ## Ważne ❗
 Przed pull-request sparawdź składnie oraz uruchom testy \
 Prace nad HTML: dev-html (w trakcie) \
