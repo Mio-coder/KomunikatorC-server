@@ -9,7 +9,7 @@
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
 
-$$\href{#postęp}{\textbf{Postęp: 10$\frac{1}{10}$\%}}$$
+$$\href{\#postęp}{\textbf{Postęp: 10$\frac{1}{10}$\%}}$$
 
 ## Ważne ❗
 Przed pull-request sparawdź składnie oraz uruchom testy \
