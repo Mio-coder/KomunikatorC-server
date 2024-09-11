@@ -73,7 +73,7 @@ db.py add <user> <password> - adds a user
 db.py print_table           - prints all users
 db.py get <user>            - gets password about
 
-## Postęp: $$0\frac{0}{1}\%$$
+## Postęp: $$0\frac{0}{1}$$%
 
 <details>
 <summary> Postępy 🏆 </summary>
