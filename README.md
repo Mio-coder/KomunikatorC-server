@@ -75,17 +75,8 @@ db.py get <user>            - gets password about
 
 ## Postęp: $$0\frac{0}{1}$$%
 
-<span style="color: #00ff00"> Całość gotowa     (100%) </span>
-<font color="#00ff00"> Całość gotowa     (100%) </font>
 ```math
-$$
-\color{green} 
-Całość 
-\space 
-gotowa 
-\space 
-(100\%)
-$$
+$$\color{green} Całość \space gotowa \space (100\%)$$
 ```
 <summary> Postępy 🏆 </summary>
 
