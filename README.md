@@ -8,7 +8,7 @@
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
-  
+  <a href="#funkcje">yh</a>
 ## Ważne ❗
 Przed pull-request sparawdź składnie oraz uruchom testy \
 Prace nad HTML: dev-html (w trakcie) \
