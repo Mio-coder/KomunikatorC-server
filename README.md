@@ -8,8 +8,8 @@
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
-
-(<span style="color: blue;">\(\frac{1}{10}\)</span>)[#tu]
+  
+(<span style="color: blue;">($$\frac{1}{10}$$)</span>)[#tu]
 
 ## Ważne ❗
 Przed pull-request sparawdź składnie oraz uruchom testy \
