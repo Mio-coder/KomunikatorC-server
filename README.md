@@ -77,7 +77,7 @@ db.py get <user>            - gets password about
 
 <span style="color: #00ff00"> Całość gotowa     (100%) </span>
 <font color="#00ff00"> Całość gotowa     (100%) </font>
-$$\color{lightgreen} Całość \space gotowa \space (100%)$$
+$$\color{green} Całość \space gotowa \space (100\%)$$
 
 <details>
 <summary> Postępy 🏆 </summary>
