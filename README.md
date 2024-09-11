@@ -76,7 +76,7 @@ db.py get <user>            - gets password about
 
 ## Postęp
 
-### **Postęp: $$0\frac{0}{0}$$%**
+### **Postęp: $$0\frac{0}{1}$$%**
 
 <details>
 <summary> Postępy 🏆 </summary>
