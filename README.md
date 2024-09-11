@@ -75,56 +75,55 @@ db.py get <user>            - gets password about
 
 ## Postęp: $$0\frac{0}{1}$$%
 
-$` $\color{green} Całość \space gotowa \space (100\%)$ `$
-
 <summary> Postępy 🏆 </summary>
 
 ### Podstawa serwera 🌐
-- [ ] <span style="color: #00ff00"> Całość gotowa     (100%) </span>
-- [ ] Większość gotowa  (~75%)
-- [ ] Połowa gotowa     (~50%)
-- [ ] Mniejszość gotowa (~25%)
-- [x] Nic nie jest gotowe (0%)
+
+- [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
+- [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
+- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
+- [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
 ### Obsługa bazy danych 📠
 
-- [ ] Całość gotowa     (100%)
-- [ ] Większość gotowa  (~75%)
-- [ ] Połowa gotowa     (~50%)
-- [ ] Mniejszość gotowa (~25%)
-- [x] Nic nie jest gotowe (0%)
+- [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
+- [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
+- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
+- [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
 ### Działające API - Weryfikacja danych 🗂️
 
-- [ ] Całość gotowa     (100%)
-- [ ] Większość gotowa  (~75%)
-- [ ] Połowa gotowa     (~50%)
-- [ ] Mniejszość gotowa (~25%)
-- [x] Nic nie jest gotowe (0%)
+- [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
+- [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
+- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
+- [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
 ### Działające API - Obsługa wiadomości 💬
 
-- [ ] Całość gotowa     (100%)
-- [ ] Większość gotowa  (~75%)
-- [ ] Połowa gotowa     (~50%)
-- [ ] Mniejszość gotowa (~25%)
-- [x] Nic nie jest gotowe (0%)
+- [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
+- [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
+- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
+- [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
 ### Szyfrowanie 📟
 
-- [ ] Całość gotowa     (100%)
-- [ ] Większość gotowa  (~75%)
-- [ ] Połowa gotowa     (~50%)
-- [ ] Mniejszość gotowa (~25%)
-- [x] Nic nie jest gotowe (0%)
+- [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
+- [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
+- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
+- [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
 ### Inne g$%&a 🥚
 
-- [ ] Całość gotowa     (100%)
-- [ ] Większość gotowa  (~75%)
-- [ ] Połowa gotowa     (~50%)
-- [ ] Mniejszość gotowa (~25%)
-- [x] Nic nie jest gotowe (0%)
+- [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
+- [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
+- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
+- [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
 </details>
 
