@@ -3,7 +3,8 @@
 - [Instalacja](#instalacja-)
 - [Funkcje](#funkcje-)
 - [Dokumentacja](#dokumentacja-)
-- [Postęp](#postęp)
+- [Diagram Bazy Danych](https://app.diagrams.net/#HMio-coder%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
+- [Postęp: $$0\frac{0}{1}$$%](#postęp)
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
@@ -72,7 +73,6 @@ db.py clear                 - clears the database
 db.py add <user> <password> - adds a user
 db.py print_table           - prints all users
 db.py get <user>            - gets password about
-
 
 ## Postęp
 
