@@ -80,7 +80,7 @@ db.py get <user>            - gets password about
 
 ### Podstawa serwera 🌐
 
-- [ ] Całość gotowa     (100%)
+- [ ] <span style="color: #00ff00"> Całość gotowa     (100%) <\span>
 - [ ] Większość gotowa  (~75%)
 - [ ] Połowa gotowa     (~50%)
 - [ ] Mniejszość gotowa (~25%)
