@@ -81,7 +81,7 @@ db.py get <user>            - gets password about
 
 - [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
 - [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
-- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{orange} Połowa \space gotowa \space (~50\%)$ `$
 - [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
 - [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
@@ -89,7 +89,7 @@ db.py get <user>            - gets password about
 
 - [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
 - [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
-- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{orange} Połowa \space gotowa \space (~50\%)$ `$
 - [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
 - [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
@@ -97,7 +97,7 @@ db.py get <user>            - gets password about
 
 - [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
 - [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
-- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{orange} Połowa \space gotowa \space (~50\%)$ `$
 - [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
 - [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
@@ -105,7 +105,7 @@ db.py get <user>            - gets password about
 
 - [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
 - [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
-- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{orange} Połowa \space gotowa \space (~50\%)$ `$
 - [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
 - [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
@@ -113,7 +113,7 @@ db.py get <user>            - gets password about
 
 - [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
 - [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
-- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{orange} Połowa \space gotowa \space (~50\%)$ `$
 - [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
 - [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
@@ -121,7 +121,7 @@ db.py get <user>            - gets password about
 
 - [ ] $` $\color{green} Całość \space gotowa \space (100\%)$ `$
 - [ ] $` $\color{yellow} Większość \space gotowa \space (~75\%)$ `$
-- [ ] $` $\color{orange Połowa \space gotowa \space (~50\%)$ `$
+- [ ] $` $\color{orange} Połowa \space gotowa \space (~50\%)$ `$
 - [ ] $` $\color{red} Mniejszość \space gotowa \space (~25\%)$ `$
 - [x] $` $\color{purple} Nic \space nie \space jest \space gotowe \space (0\%)$ `$
 
