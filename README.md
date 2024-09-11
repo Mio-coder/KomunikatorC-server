@@ -1,7 +1,6 @@
 # 1CKomunikator 💬
 - [Ważne](#ważne-)
 - [Instalacja](#instalacja-)
-- [Funkcje](#funkcje-)
 - [Dokumentacja](#dokumentacja-)
 - [Diagram Bazy Danych](https://app.diagrams.net/#HMio-coder%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
 - [Postęp](#postęp): $$0\frac{0}{1}$$%
