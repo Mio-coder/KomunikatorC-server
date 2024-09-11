@@ -75,9 +75,8 @@ db.py get <user>            - gets password about
 
 ## Postęp: $$0\frac{0}{1}$$%
 
-```math
-$$\color{green} Całość \space gotowa \space (100\%)$$
-```
+$` $$\color{green} Całość \space gotowa \space (100\%)$$ `$
+
 <summary> Postępy 🏆 </summary>
 
 ### Podstawa serwera 🌐
