@@ -3,7 +3,7 @@
 - [Instalacja](#instalacja-)
 - [Dokumentacja](#dokumentacja-)
 - [Diagram Bazy Danych](https://app.diagrams.net/#HMio-coder%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
-- [Postęp: <img src="https://latex.codecogs.com/svg.image?&space;2\frac{10}{2}\%)">](#postęp)
+- [Postęp: <img src="https://latex.codecogs.com/svg.image?&space;2\frac{10}{2}\%">](#postęp)
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
