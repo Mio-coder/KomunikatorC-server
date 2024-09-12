@@ -22,11 +22,11 @@ Here is a list of fractions representing percentages of some random data.
   }
 </style>
 
-1. <span class="latex-fraction">\($` \frac{1}{2} `$)</span><span class="handwritten-fraction">0 1/2</span> = 50%
-2. <span class="latex-fraction">\($` \frac{3}{4} `$)</span><span class="handwritten-fraction">0 3/4</span> = 75%
-3. <span class="latex-fraction">\(\frac{2}{5}\)</span><span class="handwritten-fraction">0 2/5</span> = 40%
-4. <span class="latex-fraction">\(\frac{5}{6}\)</span><span class="handwritten-fraction">0 5/6</span> = 83.33%
-5. <span class="latex-fraction">\(\frac{7}{8}\)</span><span class="handwritten-fraction">0 7/8</span> = 87.5%
+1. <span class="latex-fraction">\($` 0\frac{1}{2} `$)</span><span class="handwritten-fraction">0 1/2</span> = 50%
+2. <span class="latex-fraction">\($` 0\frac{3}{4} `$)</span><span class="handwritten-fraction">0 3/4</span> = 75%
+3. <span class="latex-fraction">\($` 0\frac{2}{5} `$)</span><span class="handwritten-fraction">0 2/5</span> = 40%
+4. <span class="latex-fraction">\($` \frac{5}{6} `$)</span><span class="handwritten-fraction">0 5/6</span> = 83.33%
+5. <span class="latex-fraction">\($` \frac{7}{8} `$)</span><span class="handwritten-fraction">0 7/8</span> = 87.5%
 
 
 # 1CKomunikator 💬
