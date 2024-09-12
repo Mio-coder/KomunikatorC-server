@@ -3,7 +3,7 @@
 - [Instalacja](#instalacja-)
 - [Dokumentacja](#dokumentacja-)
 - [Diagram Bazy Danych](https://app.diagrams.net/#HMio-coder%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
-- [Postęp: 0 0/1%](#postęp)
+- [Postęp: 0 0/1%](#postęp-0-01)
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
