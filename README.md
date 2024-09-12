@@ -78,6 +78,7 @@ db.py get <user>            - gets password about
 ## Postęp: $` $0\frac{0}{1}\%$ `$
 
 <summary> Postępy 🏆 </summary>
+<details>
 
 ### Podstawa serwera 🌐
 
