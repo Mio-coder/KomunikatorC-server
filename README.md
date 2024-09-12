@@ -33,7 +33,7 @@ Here is a list of fractions representing percentages of some random data.
 - [Ważne](#ważne-)
 - [Instalacja](#instalacja-)
 - [Dokumentacja](#dokumentacja-)
-- [Diagram Bazy Danych](https://app.diagrams.net/#HMio-coder%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
+- [Diagram Bazy Danych](https://app.diagrams.net/#Hcyber-wojtek%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
 - [Postęp: <img src="https://latex.codecogs.com/svg.image?\tiny&space;&space;0\frac{0}{1}\%" alt="0 0/1%">](#postęp)
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
