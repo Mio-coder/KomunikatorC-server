@@ -7,7 +7,7 @@
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
-- [README na Github Mobile](README_github_mobile.md)
+- [README na Github Mobile](/README_github_mobile.md)
 
 ## Ważne ❗
 Przed pull-request sparawdź składnie oraz uruchom testy \
