@@ -7,7 +7,7 @@
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
-- [README ogólne](README.md)
+- [README ogólne](/README.md)
 
 ## Ważne ❗
 Przed pull-request sparawdź składnie oraz uruchom testy \
