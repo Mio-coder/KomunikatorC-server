@@ -5,7 +5,7 @@
 - [Diagram Bazy Danych](https://app.diagrams.net/#HMio-coder%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
 - [Postęp: <img src="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;&space;0\frac{0}{1}\%" alt="0 0/1%">](#postęp-0frac01)
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;&space;0\frac{0}{1}\%">
+ <source media="(prefers-color-scheme: light)" srcset="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;&space;0\frac{0}{1}\%">
  <img alt="0 0\1%" src="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;\color{white}0\frac{0}{1}\%">
 </picture>
 - [Cele](#cele-)
