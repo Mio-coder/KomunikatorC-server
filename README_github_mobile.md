@@ -76,7 +76,7 @@ db.py add <user> <password> - adds a user
 db.py print_table           - prints all users
 db.py get <user>            - gets password about
 
-## Postęp: <picture> <source media="(prefers-color-scheme: dark)" srcset="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;\color{white}0\frac{0}{1}\%"> <img alt="0 0\1%" src="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;&space;0\frac{0}{1}\%"> </picture>
+## Postęp: <picture> <source media="(prefers-color-scheme: dark)" srcset="https://latex.codecogs.com/svg.image?\inline&space;\color{white}0\frac{0}{1}\%"> <img alt="0 0\1%" src="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;&space;0\frac{0}{1}\%"> </picture>
 
 <details>
 <summary> Postępy 🏆 </summary>
