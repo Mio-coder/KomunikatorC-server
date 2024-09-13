@@ -4,6 +4,10 @@
 - [Dokumentacja](#dokumentacja-)
 - [Diagram Bazy Danych](https://app.diagrams.net/#HMio-coder%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
 - [Postęp: <img src="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;&space;0\frac{0}{1}\%" alt="0 0/1%">](#postęp-0frac01)
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;&space;0\frac{0}{1}\%">
+ <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
