@@ -1,35 +1,32 @@
-from django.http import HttpRequest, JsonResponse, HttpResponse
-from django.shortcuts import render
-from .forms import LoginForm, SignUpForm
-import json
+from datetime import datetime
+
+from django.core.serializers import serialize
+from django.db.models import QuerySet
+from django.http import JsonResponse, HttpRequest
+from django.views.decorators.csrf import csrf_exempt
+from django.views.generic.edit import View
+
+from chat_login.mixin import RequiresLoginMixin
+from .models import Message
 
 
-def login(request: HttpRequest) -> JsonResponse | HttpResponse:
-    if request.method == "POST":
-        # api
-        form = LoginForm(request.POST)
-        if form.is_valid():
-            username = form.cleaned_data["username"]
-            password = form.cleaned_data["password"]
-            return JsonResponse({"session_id": "absb-hrqp-foae-tyui"}, status=200)
-        else:
-            return JsonResponse({"errors": form.errors.as_json()}, status=400)
-    form = LoginForm()
-    return render(request, "login.html", {"form": form})
+class CSRFExemptMixin:
+    @classmethod
+    def as_view(cls, **initkwargs):
+        return csrf_exempt(super().as_view(**initkwargs))
 
 
-def signup(request: HttpRequest) -> JsonResponse | HttpResponse:
-    if request.method == "POST":
-        # api
-        form = SignUpForm(request.POST)
-        if form.is_valid():
-            username = form.cleaned_data["username"]
-            password = form.cleaned_data["password"]
-            confirm_password = form.cleaned_data["confirm_password"]
-            if password != confirm_password:
-                return JsonResponse({"errors": form.errors.as_json()}, status=400)
-            return JsonResponse({"session_id": "absb-hrqp-foae-tyui"}, status=200)
-        else:
-            return JsonResponse({"errors": form.errors.as_json()}, status=400)
-    form = SignUpForm()
-    return render(request, "signup.html", {"form": form})
+class GetMessageView(View, RequiresLoginMixin, CSRFExemptMixin):
+    redirect_url = "/chat/login/"
+    request: HttpRequest
+
+    def post(self, request):
+        if "from" not in request.POST:
+            return JsonResponse({"messages": [], "error": "invalid shema"})
+        from_time = float(request.POST["from"])
+        batch_size = request.POST["batch_size"] if "batch_size" in request.POST else 25
+        messages: QuerySet = Message.objects
+        messages = messages.filter(created_at__range=(datetime.fromtimestamp(from_time), datetime.now()))
+        messages: list[Message] = messages.order_by("created_at")[:25]
+        return JsonResponse({"messages": serialize("json", messages), "error": ""})
+

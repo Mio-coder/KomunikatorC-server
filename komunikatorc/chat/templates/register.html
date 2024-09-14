@@ -9,13 +9,14 @@
 </head>
 <body>
 <div class="container mt-5 w-50">
-    <h2 class="text-center">Login</h2>
-    <form id="loginForm" method="POST">
+    this is temporary
+    <form id="registerForm" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
-        <input type="submit" name="login-submit" class="btn btn-success btn-lg" value="Login"/>
+        <button type="submit">Register</button>
     </form>
-    <div id="error-message" class="text-danger mt-3"></div> <!-- Error message container -->
+    source: <a
+        href="https://djangocentral.com/django-ajax-with-jquery/#making-ajax-post-requests-with-django-and-jquery">https://djangocentral.com/django-ajax-with-jquery/#making-ajax-post-requests-with-django-and-jquery</a>
 </div>
 </body>
 </html>

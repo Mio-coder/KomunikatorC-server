@@ -1,0 +1,51 @@
+from django.contrib.auth.hashers import check_password
+from django.db.models import QuerySet
+from django.http import JsonResponse, HttpRequest
+from django.urls import reverse_lazy
+from django.views.generic.edit import CreateView, FormView
+
+from chat.models import User
+from chat_login.forms import LoginForm, UserRegistrationForm
+
+
+class LoginFormView(FormView):
+    template_name = "login.html"
+    form_class = LoginForm
+
+    def form_valid(self, form):
+        username = form.cleaned_data["username"]
+        password = form.cleaned_data["password"]
+
+        # Check if the user exists
+        users: QuerySet = User.objects.filter(username=username)
+        print(users)
+        if users.exists():
+            user: User = users.get()
+            print(f"{user.username=} {user.password=}")
+            # Verify the password
+            if check_password(password, user.password):
+                # Store session data
+                self.request.session['user_id'] = user.id
+                self.request.session['username'] = user.username
+                self.request.session['avatar'] = user.avatar.url if user.avatar else None
+                return JsonResponse({"success": True}, status=200)
+            else:
+                return JsonResponse({"success": False, "error": f"Invalid password {password} {user.password}"},
+                                    status=400)
+        else:
+            return JsonResponse({"success": False, "error": "User does not exist"}, status=400)
+
+    def form_invalid(self, form):
+        return JsonResponse({"errors": form.errors.as_json()}, status=400)
+
+
+class UserRegisterView(CreateView):
+    model = User
+    form_class = UserRegistrationForm
+    template_name = 'register.html'
+    success_url = reverse_lazy("login")  # Redirect after successful registration
+
+
+def show_users(request: HttpRequest):
+    x: QuerySet = User.objects
+    return JsonResponse([["username", "password"]] + [[u.username, u.password] for u in x.all()], safe=False)
