@@ -1,0 +1,22 @@
+.container {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+}
+
+.alert {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100% !important;
+    }
+}

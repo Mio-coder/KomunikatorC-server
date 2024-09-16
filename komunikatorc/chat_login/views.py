@@ -3,6 +3,7 @@ from django.db.models import QuerySet
 from django.http import JsonResponse, HttpRequest
 from django.urls import reverse_lazy
 from django.views.generic.edit import CreateView, FormView
+from django.shortcuts import redirect, render
 
 from chat.models import User
 from chat_login.forms import LoginForm, UserRegistrationForm
@@ -26,14 +27,11 @@ class LoginFormView(FormView):
             if check_password(password, user.password):
                 # Store session data
                 self.request.session['user_id'] = user.id
-                self.request.session['username'] = user.username
-                self.request.session['avatar'] = user.avatar.url if user.avatar else None
-                return JsonResponse({"success": True}, status=200)
+                return redirect("/chat/home/")
             else:
-                return JsonResponse({"success": False, "error": f"Invalid password {password} {user.password}"},
-                                    status=400)
+                return render(self.request, "login.html", {"error": "Invalid password"})
         else:
-            return JsonResponse({"success": False, "error": "User does not exist"}, status=400)
+            return render(self.request, "login.html", {"error": "User does not exist"})
 
     def form_invalid(self, form):
         return JsonResponse({"errors": form.errors.as_json()}, status=400)
