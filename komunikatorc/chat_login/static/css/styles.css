@@ -11,10 +11,6 @@
     font-size: 1.25rem;
 }
 
-.alert {
-    display: none;
-}
-
 @media (max-width: 576px) {
     .container {
         width: 100% !important;

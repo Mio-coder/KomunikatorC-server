@@ -1,9 +1,8 @@
 from django.contrib.auth.hashers import check_password
 from django.db.models import QuerySet
-from django.http import JsonResponse, HttpRequest
+from django.shortcuts import redirect, render
 from django.urls import reverse_lazy
 from django.views.generic.edit import CreateView, FormView
-from django.shortcuts import redirect, render
 
 from chat.models import User
 from chat_login.forms import LoginForm, UserRegistrationForm
@@ -12,6 +11,9 @@ from chat_login.forms import LoginForm, UserRegistrationForm
 class LoginFormView(FormView):
     template_name = "login.html"
     form_class = LoginForm
+
+    def error(self, errors: str, form):
+        return render(self.request, "login.html", {"error": errors, "form": form})
 
     def form_valid(self, form):
         username = form.cleaned_data["username"]
@@ -29,12 +31,12 @@ class LoginFormView(FormView):
                 self.request.session['user_id'] = user.id
                 return redirect("/chat/home/")
             else:
-                return render(self.request, "login.html", {"error": "Invalid password"})
+                return self.error("Invalid password", form)
         else:
-            return render(self.request, "login.html", {"error": "User does not exist"})
+            return self.error("User does not exist", form)
 
     def form_invalid(self, form):
-        return JsonResponse({"errors": form.errors.as_json()}, status=400)
+        return self.error(str(form.errors.as_json()), form)
 
 
 class UserRegisterView(CreateView):
@@ -42,8 +44,3 @@ class UserRegisterView(CreateView):
     form_class = UserRegistrationForm
     template_name = 'register.html'
     success_url = reverse_lazy("login")  # Redirect after successful registration
-
-
-def show_users(request: HttpRequest):
-    x: QuerySet = User.objects
-    return JsonResponse([["username", "password"]] + [[u.username, u.password] for u in x.all()], safe=False)
