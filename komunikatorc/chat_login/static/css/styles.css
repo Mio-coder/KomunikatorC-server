@@ -1,7 +1,9 @@
 .background-image {
   background-image: url("https://images.pexels.com/photos/949194/pexels-photo-949194.jpeg?cs=srgb&dl=pexels-manuela-adler-344311-949194.jpg&fm=jpg");
-  background-size: cover;
+  background-origin: content-box;
+  background-size: 100% 100%;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
