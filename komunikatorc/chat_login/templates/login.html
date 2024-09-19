@@ -19,7 +19,7 @@
         {{ error|escape }}
     </div>
     {% endif %}
-    <form id="loginForm" method="POST">
+    <form id="loginForm" method="POST" class="container">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="btn btn-success btn-lg">Login</button>
