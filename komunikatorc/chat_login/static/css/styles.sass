@@ -1,9 +1,9 @@
 @mixin background-image($url)
-  background-image: url($url)
-  background-origin: content-box
-  background-size: 100% 100%
-  background-position: center
-  background-repeat: no-repeat
+  background: url($url) no-repeat center center fixed content-box
+  background-size: 100% 100% /* Generic */
+  -o-background-size: 100% /* Opera */
+  -moz-background-size: 100% /* Firefox */
+  -webkit-background-size: 100% /* WebKit (Safari) */
 
 @mixin flex-center
   display: flex
