@@ -1,30 +1,32 @@
+.background-image {
+  background-image: url("https://images.pexels.com/photos/949194/pexels-photo-949194.jpeg?cs=srgb&dl=pexels-manuela-adler-344311-949194.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .container {
-    margin-top: 50px;
-    display: flex;
-    /*margin-left: auto;
-    margin-right: auto;
-    flex-wrap: wrap;*/
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .text-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  margin-bottom: 25px;
 }
 
 .btn-lg {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
-@media (max-width: 710px) {
-    .container {
-        margin-top: 50px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+/*# sourceMappingURL=styles.css.map */

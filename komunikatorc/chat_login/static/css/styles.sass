@@ -1,0 +1,30 @@
+@mixin background-image($url)
+  background-image: url($url)
+  background-size: cover
+  background-position: center
+
+@mixin flex-center
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-left: auto
+  margin-right: auto
+
+.background-image
+  @include background-image('https://images.pexels.com/photos/949194/pexels-photo-949194.jpeg?cs=srgb&dl=pexels-manuela-adler-344311-949194.jpg&fm=jpg')
+
+.container
+  @include flex-center
+  margin-top: 50px
+  flex-wrap: wrap
+  flex-direction: column
+
+.text-center
+    @include flex-center
+    height: 50%
+    margin-bottom: 25px
+
+
+.btn-lg
+    font-size: 1.25rem
+
