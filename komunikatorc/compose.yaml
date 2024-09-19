@@ -1,0 +1,20 @@
+services:
+  web:
+    image: komunikatorc:latest
+    networks:
+      - frontend
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: .
+          ignore:
+            - static/
+        - action: rebuild
+          path: pyproject.toml
+        - action: rebuild
+          path: /static/
+networks:
+  frontend:
+    driver: bridge
+
