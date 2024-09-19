@@ -1,10 +1,19 @@
 .container {
     margin-top: 50px;
-    width: 50%;
+    display: flex;
+    /*margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-center {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
 }
 
 .btn-lg {
@@ -15,8 +24,11 @@
     display: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 710px) {
     .container {
-        width: 100% !important;
+        margin-top: 50px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
