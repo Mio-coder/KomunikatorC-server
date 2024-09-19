@@ -46,8 +46,7 @@ class GetMessageView(*APIMixin, View):
 
     def post(self, request):
         messages: QuerySet = Message.objects
-        messages = messages.filter(created_at__range=(self.data.from_, datetime.now()))
-        messages: list[Message] = messages.order_by("created_at")[:self.data.batch_size]
+        messages: list[Message] = messages.filter(created_at__range=(self.data.from_, datetime.now())).order_by("created_at")[:self.data.batch_size]
         return JsonResponse({"messages": serialize("json", messages), "error": ""})
 
 

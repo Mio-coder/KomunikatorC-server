@@ -45,5 +45,5 @@ class UserRegisterView(CreateView):
 
 
 def show_users(request: HttpRequest):
-    x: QuerySet = User.objects
-    return JsonResponse([["username", "password"]] + [[u.username, u.password] for u in x.all()], safe=False)
+    users: QuerySet = User.objects
+    return JsonResponse([["username", "password"]] + [[user.username, user.password] for user in users.all()], safe=False)
