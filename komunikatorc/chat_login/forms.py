@@ -21,7 +21,6 @@ class UserRegistrationForm(forms.ModelForm):
     def save(self, commit=True):
         user = super().save(commit=False)
         # Hash the password before saving it
-
         user.password = make_password(self.cleaned_data['password'], "4g6gv548", BCryptSHA256PasswordHasher.algorithm)
         if commit:
             user.save()
