@@ -144,5 +144,6 @@ db.py get <user>            - gets password about
 - [ ] Baza Danych 🗂️
 - [ ] Szyfrowanie 🔐
 - [ ] API 📟
+- [ ] wszystko 😏😏😏😏😏😏😏
 
 ## Znane Błędy ❗
