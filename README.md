@@ -3,7 +3,7 @@
 - [Instalacja](#instalacja-)
 - [Dokumentacja](#dokumentacja-)
 - [Diagram Bazy Danych](https://app.diagrams.net/#HMio-coder%2FKomunikatorC-server%2Fmain%2FDB-model.drawio#%7B%22pageId%22%3A%22IgY-TPN_slxYMBxNZM7g%22%7Dh)
-- [Postęp: <picture> <source media="(prefers-color-scheme: dark)" srcset="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;\color{white}0\frac{0}{1}\%"> <img alt="0 0\1%" src="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;&space;0\frac{0}{1}\%"> </picture>](#postęp-0frac01)
+- [Postęp: <picture> <source media="(prefers-color-scheme: dark)" srcset="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;\color{white}25\frac{0}{1}\%"> <img alt="25 0\1%" src="https://latex.codecogs.com/svg.image?\inline&space;\tiny&space;&space;25\frac{0}{1}\%"> </picture>](#postęp-0frac01)
 - [Cele](#cele-)
 - [Do Zrobienia](#do-zrobienia-)
 - [Znane Błędy](#znane-błędy-)
@@ -76,7 +76,7 @@ db.py add <user> <password> - adds a user
 db.py print_table           - prints all users
 db.py get <user>            - gets password about
 
-## Postęp: $` $0\frac{0}{1}\%$ `$
+## Postęp: $` $25\frac{0}{1}\%$ `$
 
 <details>
 <summary> Postępy 🏆 </summary>
