@@ -2,16 +2,18 @@ services:
   web:
     build:
       context: .
+    network_mode: host
     ports:
       - 127.0.0.1:8000:8000
-    develop:
-      watch:
-        - action: sync
-          path: .
-          target: .
-          ignore:
-            - static/
-        - action: rebuild
-          path: pyproject.toml
-        - action: rebuild
-          path: /static/
+#    develop:
+#      watch:
+#        - action: sync
+#          path: .
+#          target: .
+#          ignore:
+#            - static/
+#        - action: rebuild
+#          path: pyprojecttoml.
+#        - action: rebuild
+#          path: /static/
+
