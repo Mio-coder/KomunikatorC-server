@@ -1,8 +1,9 @@
 services:
   web:
-    image: komunikatorc:latest
-    networks:
-      - frontend
+    build:
+      context: .
+    ports:
+      - 127.0.0.1:8000:8000
     develop:
       watch:
         - action: sync
@@ -14,7 +15,3 @@ services:
           path: pyproject.toml
         - action: rebuild
           path: /static/
-networks:
-  frontend:
-    driver: bridge
-

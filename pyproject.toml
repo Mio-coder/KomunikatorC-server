@@ -7,15 +7,13 @@ requires-python = ">=3.12"
 dependencies = [
     "django>=5.1.1",
     "pillow>=10.4.0",
-    "pip>=24.2",
     "pydantic>=2.9.2",
-    "setuptools>=74.1.2",
 ]
 
 [tool.ruff]
-target-version = "3.11"
-select = "ALL"
-line-length = "120"
+target-version = "py312"
+select = ["ALL"]
+line-length = 120
 
 
 [tool.pylint]
@@ -39,4 +37,11 @@ disable = [
     "R1723", "R1724", "R1720", "R1705", "R6301", "R0203", "R0206", "R1704", "R1719", "R1703", "R1725", "R1260", "R0913",
     "R0916", "R0912", "R0914", "R1702", "R0904", "R0911", "R0915", "R1707", "R1721", "R1733", "R1736", "R1729", "R1735",
     "R1734", "R6201", "R0205", "R0022", "R1711",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pip>=24.2",
+    "ruff>=0.6.6",
+    "setuptools>=75.1.0",
 ]
